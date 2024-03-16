@@ -95,7 +95,6 @@ def plot_21(df0, label0, df1, label1, unit0=None, ma0=None, unit1=None, ma1=None
         
     for i in [ax0, ax1]:
         i.legend()
-        i.grid(linestyle='--')
         
     if unit0 != None:
         ax0.set_ylabel(unit0, ha='left', y=1, rotation=0)
@@ -117,7 +116,6 @@ def plot_yc(df, x, period=[5, 22, 65], unit='(%)'):
     plt.plot(x, y2, color=colors[2], label='-%.0fD'%period[1], marker='o')
     plt.plot(x, y3, color=colors[3], label='-%.0fD'%period[2], marker='o')
     plt.legend()
-    plt.grid(linestyle='--')
     ax.set_ylabel(unit, ha='left', y=1, rotation=0)
     
 
