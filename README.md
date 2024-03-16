@@ -1,3 +1,3 @@
-# MoojinBin_py
+# git_pip_install
 
-Library for managing frequently used Python code
+Python의 pip install을 깃허브로 할 수 있도록
