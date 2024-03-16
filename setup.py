@@ -11,6 +11,6 @@ setup(
     packages=['MoojinBin_lib'],
     zip_safe=False,
     install_requires=[
-        'matplotlib==3.8.3'
+        
     ]
 )
