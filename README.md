@@ -3,7 +3,7 @@
 
 
 ## 설치 방법
-pip install git+https://github.com/roy8in/git-pip-install.git
+cmd > 'pip install git+https://github.com/roy8in/git-pip-install.git'
 
 ## 설치 필요사항
 GitHub Desktop이 설치되어 있어야하며, 시스템 환경 path에 git이 등록되어 있어야함
