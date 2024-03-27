@@ -28,7 +28,7 @@ def plot_11(df, label, unit=None, ma=None, multi_line=False, st=False):
             if i < 4:
                 ax.plot(df[df.columns[i]], label=label[i], color=colors[i], zorder=10-i)
             else:
-                ax.plot(df[df.columns[i]], label=label[i], color=colors[i], zorder=10-i, linestyle='--')
+                ax.plot(df[df.columns[i]], label=label[i], color=(colors+colors)[i], zorder=10-i, linestyle='--')
     else:
         if (ma != None and ma > 0):
             ax.plot(df, color=color0, alpha=0.5)
