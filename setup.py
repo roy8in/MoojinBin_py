@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='MoojinBin_lib',
-    version='0.0.1',
+    version='0.0.2',
     description='Moojin Bin library',
     url='https://github.com/roy8in/git_pip_install.git',
     author='Roy Bin',
