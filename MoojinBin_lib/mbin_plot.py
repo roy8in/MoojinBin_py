@@ -11,7 +11,7 @@ rc('font', family=font)
 #%%
 # Palette 지정
 color0 = 'darkslategray'
-color1 = 'seagreen'
+color1 = 'mediumseagreen'
 color2 = 'tan'
 color3 = 'red'
 color4= 'darkcyan'
